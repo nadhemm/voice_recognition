@@ -1,0 +1,636 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+    <title>Programmierende Software| Home</title>
+    {% load staticfiles %}
+    <link rel="shortcut icon" type="image/x-icon" href="{% static 'assets/images/Tum_logo(1).png' %}"/>
+{#    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/shoelace-css/1.0.0-beta16/shoelace.css">#}
+{#    <link rel="stylesheet" href="{% static 'assets/css/vr_styles.css' %}">#}
+
+
+    <link href="{% static 'assets/css/bootstrap.min.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/bootstrap-theme.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'assets/css/owl.carousel.css' %}" rel="stylesheet">
+    <link href="{% static 'assets/css/owl.theme.default.min.css' %}" rel="stylesheet">
+
+    <link href="{% static 'assets/css/magnific-popup.css' %}" rel="stylesheet">
+
+    <link href="{% static 'assets/css/style.css' %}" rel="stylesheet">
+
+
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+        <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+        <![endif]-->
+</head>
+<body>
+<div id="menu-item" class="menu-item hide-menu">
+    <div class="container">
+        <ul>
+            <a href="index.html">
+                <li>Startseite</li>
+            </a>
+            <a href="#about">
+                <li>Über Uns</li>
+            </a>
+            <a href="#use">
+                <li>Stellen Sie eine Frage</li>
+            </a>
+            <a href="#Weiterentwicklung">
+                <li>Weiterentwicklung</li>
+            </a>
+            <a href="#team">
+                <li>Unser Team</li>
+            </a>
+            <a href="#Kontakt">
+                <li>Kontakt</li>
+            </a>
+            <!--<a href="elements.html"><li>Elements</li></a>
+    <a href="#Team"><li>team</li></a>-->
+        </ul>
+    </div>
+</div>
+<div class="main">
+    <header class="bg-img header">
+        <nav class="navbar navbar-default navbar-ubutia">
+            <div class="container">
+                <div class="navigation-bar">
+                    <div class="row">
+                        <div class="col-xs-6">
+                            <div class="logo">
+                                <a href="index.html"><span class="ubutia-icon"></span></a>
+                            </div>
+                        </div>
+                        <div class="col-xs-6 text-right">
+                            <div class="menu m">
+                                <a href="#"><span class="ion-navicon _ion-android-menu"></span></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container">
+            <div class="row">
+                <div class="intro-box">
+                    <div class="intro">
+                        <h1>Programmierende Software</h1>
+                        <p>(ProSoft)<br>
+                            Komputer & Creativität
+                        <p>
+                            <!--<a class="btn ubutia-btn" href="#">Explore us</a>-->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="about" class="about section">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                    <h2 class="title">Über ProSoft</h2>
+                    <p>
+                        Unsere Software hilft Ihnen bei der Suche nach den Implementierungen von Sortieralgorithmen.
+                        Sie können bequem anhand der Texteingabe oder der Sprachaufnahme in der Form "Wie implementiert
+                        man X?"
+                        eine Frage stellen und erhalten anschließend als Antwort auf Ihre Frage die gewünschte
+                        Implementierung.
+                        Dadurch erspart Ihnen unser Programm die Zeit bei der Suche nach Algorithmen im Web,
+                        die viel Zeit in Anspruch nimmt und/oder zu keinen vertraulichen Ergebnissen führt.
+                        <br>Viel Spaß beim Programmieren!
+                    </p>
+                    <!--<img src="assets/images/signature.png">
+                    <span>ubutia Studio-ceo</span>-->
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="purpose section">
+        <div class="container">
+            <h2 class="title">Wie ist ProSoft anzuwenden?</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <div class="card-icon">
+                                <span class="speechrecognition" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Spracherkennung</h3>
+                            <p>
+                                Mit einer Sprachaufnahme können Sie ProSoft Ihre Frage stellen.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <div class="card-icon">
+                                <span class="speechtotext" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Sprache-Text-Wandlung</h3>
+                            <p>
+                                Ihre Frage wird anschließend von der intelligeten Software in einen Text umgewandelt.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <div class="card-icon">
+                                <span class="textsuche" aria-hidden="true"></span>
+                            </div>
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Textsuche</h3>
+                            <p>
+                                Schließlich wird eine Textsuche durchgeführt und die Antwort zu Ihrer Frage ausgegeben.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="use" class="watch bg-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <span>Was möchten Sie implementieren?</span>
+                    <p></p>
+                    <!--<a class="btn ubutia-btn" href="#">Sprachaufnahme</a>-->
+                    <Button class="btn ubutia-btn" id="start-record-btn">Sprachaufnahme</Button>
+                <p id="recording-instructions">Press the <strong>Voice recording</strong> button and allow access.</p>
+                    <!--<a class="popup-youtube btn" href="https://www.youtube.com/watch?v=oMIENcW6QM0"><span class="play-icon"></span></a>-->
+                    <!--<span>das war Ihre Frage:</span>-->
+                    <textarea id="note-textarea" placeholder="Create a new note by typing or using voice recognition."
+                              rows="6" hidden></textarea>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-12">
+            <p>Möchten Sie Ihre Frage lieber eingeben?</p>
+
+            <div class="form-group">
+                <textarea class="form-control" name="input_text" id="input_text" placeholder="Ihre Frage..."></textarea><br>
+                <button id="btn" onclick="ajax_call()" class="btn ubutia-btn">ok</button>
+                <p>Die Antwort auf Ihre Frage lautet:</p>
+                <textarea rows="20" class="form-control" id="result" placeholder="Die Antwort..." style="color: black">
+                          </textarea>
+            </div>
+
+        </div>
+    </section>
+    <!--<section class="subscribe section bg-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Schreiben Sie Ihre Frage?</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input class="form-control" id="user-email" placeholder="Ihre Frage ....">
+                        </div>
+                        <button type="submit" class="btn ubutia-btn">OK</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>-->
+    <section id="Weiterentwicklung" class="expert">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-sm-6 bg-img">
+                    <div></div>
+                </div>
+                <div class="col-sm-5 section">
+                    <h2 class="title">Weiterentwicklung von ProSoft</h2>
+                    <div id="expert-slider" class="owl-carousel">
+                        <div class="item">
+                            <p>
+                                ProSoft zeichnet sich durch Ihre enorme Vielseitigkeit aus.
+                                Wir haben uns überlegt wie man die Software weiterentwickeln kann, damit sie mehrere
+                                Aufgaben erfüllen kann:
+                            </p>
+                        </div>
+                        <div class="item">
+                            <p>
+                                Die Software könnte für die Lösung differentieller Gleichungssysteme, Integrale und
+                                komplexe Rechnungen weiterentwickelt werden.
+                                Mit einer künstlichen Intelligenz kann die Software komplexere Sortieralgorithmen für
+                                vorgegebene Beispiele lösen und/oder bei der Implementierung von Testfunktionen genutzt
+                                werden.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="ubutia-quote section bg-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <img class="quote" src="{% static 'assets/images/quote.png' %}">
+                    <p>
+                        “I choose a lazy person to do a hard job.
+                        Because a lazy person will find an easy way to do it.”
+                    </p>
+                    <p class="author">Bill Gates</p>
+                    <p>Take it easy with ProSoft!</p>
+                    <img src="{% static 'assets/images/mouse.png' %}">
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="team" class="team section">
+        <div class="container">
+            <h2 class="title">Unser Team</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <img class="img-responsive" src="{% static 'assets/images/00.jpg' %}">
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Julius Ott</h3>
+                            <p>
+                                Elektro- und Informationstechnik, TU München
+                            </p>
+                            <div class="social-icons">
+                                <ul>
+                                    <a href="#">
+                                        <li><span class="ion-social-facebook"></span></li>
+                                    </a>
+                                    <a href="#">
+                                        <li><span class="ion-social-twitter"></span></li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <img class="img-responsive" src="{% static 'assets/images/01.jpg' %}">
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Neslihan Sahin</h3>
+                            <p>
+                                Elektro- und Informationstechnik, TU München
+                            </p>
+                            <div class="social-icons">
+                                <ul>
+                                    <a href="#">
+                                        <li><span class="ion-social-facebook"></span></li>
+                                    </a>
+                                    <a href="#">
+                                        <li><span class="ion-social-twitter"></span></li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <img class="img-responsive" src="{% static 'assets/images/01.jpg' %}">
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Amna Najib</h3>
+                            <p>
+                                Elektro- und Informationstechnik, TU München
+                            </p>
+                            <div class="social-icons">
+                                <ul>
+                                    <a href="#">
+                                        <li><span class="ion-social-facebook"></span></li>
+                                    </a>
+                                    <a href="#">
+                                        <li><span class="ion-social-twitter"></span></li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <img class="img-responsive" src="{% static 'assets/images/01.jpg' %}">
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Thana Guetet</h3>
+                            <p>
+                                Elektro- und Informationstechnik, TU München
+                            </p>
+                            <div class="social-icons">
+                                <ul>
+                                    <a href="#">
+                                        <li><span class="ion-social-facebook"></span></li>
+                                    </a>
+                                    <a href="#">
+                                        <li><span class="ion-social-twitter"></span></li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <img class="img-responsive" src="{% static 'assets/images/00.jpg' %}">
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Houssem Sellami</h3>
+                            <p>
+                                Elektro- und Informationstechnik, TU München
+                            </p>
+                            <div class="social-icons">
+                                <ul>
+                                    <a href="#">
+                                        <li><span class="ion-social-facebook"></span></li>
+                                    </a>
+                                    <a href="#">
+                                        <li><span class="ion-social-twitter"></span></li>
+                                    </a>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="subscribe section bg-img">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Abonnieren Sie unseren Newsletter!</p>
+                    <form class="form-inline">
+                        <div class="form-group">
+                            <input type="email" class="form-control" id="user-email"
+                                   placeholder="Ihre Email-Adresse....">
+                        </div>
+                        <button type="submit" class="btn ubutia-btn">Senden</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section id="Kontakt" class="contact section">
+        <div class="container">
+            <h2 class="title">So erreichen Sie uns</h2>
+            <div class="row">
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <span class="fa fa-map-o" aria-hidden="true"></span>
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Anschrift</h3>
+                            <p>
+                                Technische Universität München
+                                Arcisstraße 21, 80333 München
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <span class="fa fa-phone" aria-hidden="true"></span>
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Telefon:</h3>
+                            <p>
+                                +4989289-01
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="ubutia-card">
+                        <div class="ubutia-card-header">
+                            <span class="fa fa-paper-plane" aria-hidden="true"></span>
+                        </div>
+                        <div class="ubutia-card-content">
+                            <h3>Email</h3>
+                            <p>
+                                proSoft@kundc.com
+                            </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-12">
+                    <div class="social-icons">
+                        <ul>
+                            <a href="#">
+                                <li><span class="ion-social-facebook"></span></li>
+                            </a>
+                            <a href="#">
+                                <li><span class="ion-social-twitter"></span></li>
+                            </a>
+                            <a href="#">
+                                <li><span class="ion-social-pinterest"></span></li>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!--<footer class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <p>Design <font class="logo-icon"></font> by <a href="https://www.freshdesignweb.com/">freshDesignweb</a></p>
+                </div>
+            </div>
+        </div>
+    </footer>-->
+    <div>
+        <div class="container">
+            <div class="app">
+                <div class="input-single">
+                </div>
+            </div>
+
+        </div>
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+        <script src="{% static 'assets/js/Voice_rec_script.js' %}"></script>
+        <script>
+            try {
+                var SpeechRecognition = window.SpeechRecognition || window.webkitSpeechRecognition;
+                var recognition = new SpeechRecognition();
+            } catch (e) {
+                console.error(e);
+                $('.no-browser-support').show();
+                $('.app').hide();
+            }
+
+
+            var noteTextarea = $('#note-textarea');
+
+            var noteContent = '';
+
+            // Get all notes from previous sessions and display them.
+            {#var notes = getAllNotes();#}
+            {#renderNotes(notes);#}
+
+
+            /*-----------------------------
+                  Voice Recognition
+            ------------------------------*/
+
+            // If false, the recording will stop after a few seconds of silence.
+            // When true, the silence period is longer (about 15 seconds),
+            // allowing us to keep recording even when the user pauses.
+            recognition.continuous = true;
+
+            recognition.lang = 'en-US';
+
+            // This block is called every time the Speech APi captures a line.
+            recognition.onresult = function (event) {
+
+                // event is a SpeechRecognitionEvent object.
+                // It holds all the lines we have captured so far.
+                // We only need the current one.
+                var current = event.resultIndex;
+
+                // Get a transcript of what was said.
+                var transcript = event.results[current][0].transcript;
+
+                // Add the current transcript to the contents of our Note.
+                // There is a weird bug on mobile, where everything is repeated twice.
+                // There is no official solution so far so we have to handle an edge case.
+                var mobileRepeatBug = (current == 1 && transcript == event.results[0][0].transcript);
+
+                if (!mobileRepeatBug) {
+                    noteContent += transcript;
+                    noteTextarea.val(noteContent);
+                    {#console.log("log:" + noteContent);#}
+                    audio_ajax_call(noteContent)
+                }
+            };
+
+            recognition.onstart = function () {
+                {#instructions.text('Voice recognition activated. Try speaking into the microphone.');#}
+            }
+
+            recognition.onspeechend = function () {
+                {#instructions.text('You were quiet for a while so voice recognition turned itself off.');#}
+            }
+
+            recognition.onerror = function (event) {
+                if (event.error == 'no-speech') {
+                    {#instructions.text('No speech was detected. Try again.');#}
+                }
+                ;
+            }
+
+
+            /*-----------------------------
+                  App buttons and input
+            ------------------------------*/
+
+            $('#start-record-btn').on('click', function (e) {
+                if (noteContent.length) {
+                    noteContent += ' ';
+                }
+                recognition.start();
+            });
+
+
+            // Sync the text inside the text area with the noteContent variable.
+            noteTextarea.on('input', function () {
+                noteContent = $(this).val();
+            })
+
+
+        </script>
+        <!-- Only used for the demos ads. Please ignore and remove. -->
+        <script src="https://cdn.tutorialzine.com/misc/enhance/v3.js" async></script>
+
+    </div>
+</div>
+<script src="{% static 'assets/js/jquery-3.1.1.js' %}"></script>
+<script src="{% static 'assets/js/bootstrap.min.js' %}"></script>
+<script src="{% static 'assets/js/owl.carousel.min.js' %}"></script>
+<script src="{% static 'assets/js/jquery.magnific-popup.js' %}"></script>
+<script src="{% static 'assets/js/script.js' %}"></script>
+</body>
+</html>
+{#<script src="https://code.jquery.com/jquery-3.1.0.min.js"></script>#}
+
+
+<script type="text/javascript">
+    function audio_ajax_call(input) {
+        let data = {
+            'input_text': input,
+            csrfmiddlewaretoken: '{{ csrf_token }}'
+        };
+        $.ajax({
+            "type": "POST",
+            "url": "{% url 'QueryView' %}",
+            "dataType": "json",
+            "data": data,
+            "success": function (response) {
+                if (response.success) {
+                    $('#result').html(response.text)
+                } else {
+                    $('#result').html("No results found for " + response.words)
+            }
+            },
+            "error": function () {
+                $('#result').html("<label>Error occurred!</label>")
+            },
+        });
+    }
+</script>
+
+<script>
+    function ajax_call() {
+
+        let data = {
+            'input_text': $('#input_text').val(),
+            csrfmiddlewaretoken: '{{ csrf_token }}'
+        };
+        $.ajax({
+            "type": "POST",
+            "url": "{% url 'QueryView' %}",
+            "dataType": "json",
+            "data": data,
+            "success": function (response) {
+                if (response.success) {
+                    $('#result').html(response.text)
+                } else {
+                    $('#result').html("No results found for " + response.words)
+                }
+            },
+            "error": function () {
+                $('#result').html("<label>Error occurred!</label>")
+            },
+        });
+    }
+</script>
