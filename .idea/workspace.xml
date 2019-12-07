@@ -56,7 +56,7 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$USER_HOME$/PycharmProjects/Kaounenv/lib/python3.6/site-packages/speech_recognition/__init__.py">
+        <entry file="file://$PROJECT_DIR$/../Kaounenv/lib/python3.6/site-packages/speech_recognition/__init__.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1890">
               <caret line="302" column="13" lean-forward="true" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="23" />
@@ -91,6 +91,9 @@
       <find>press</find>
     </findStrings>
   </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
@@ -102,12 +105,7 @@
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="67" />
-    <option name="y" value="25" />
-    <option name="width" value="927" />
-    <option name="height" value="1055" />
-  </component>
+  <component name="ProjectId" id="1UdQ48oq5Ts0pcLXZbOOX5bgoNA" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -212,7 +210,7 @@
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
-      <option name="SDK_HOME" value="$USER_HOME$/PycharmProjects/Kaounenv/bin/python" />
+      <option name="SDK_HOME" value="$PROJECT_DIR$/../Kaounenv/bin/python" />
       <option name="WORKING_DIRECTORY" value="" />
       <option name="IS_MODULE_SDK" value="false" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
@@ -331,7 +329,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/PycharmProjects/Kaounenv/lib/python3.6/site-packages/speech_recognition/__init__.py">
+    <entry file="file://$PROJECT_DIR$/../Kaounenv/lib/python3.6/site-packages/speech_recognition/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1890">
           <caret line="302" column="13" lean-forward="true" selection-start-line="302" selection-start-column="13" selection-end-line="302" selection-end-column="23" />
